@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This sucks</title>
+</head>
+<body>
+<input type="text" id="time" style="border:3px solid blue; text-align:center; font-size:2em;" disabled="true"/>
+<script>window.onload = function() { countdown(4); }</script>
+<script>
+    function countdown(startTime) {
+        let time = startTime;
+        let output = document.getElementById('time');
+
+        let timer = setInterval(tick, 1000);
+
+        function tick() {
+            time--;
+          output.value = `${Math.floor(time/60)}:${('0'+ time % 60).slice(-2)}`;
+
+        }
+    }
+</script>
+</body>
+</html>
