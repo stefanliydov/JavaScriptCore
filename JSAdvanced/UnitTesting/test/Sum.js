@@ -10,8 +10,10 @@ describe("Test summator", function () {
     it("Should return 3 for [1,2]", function () {
         expect(sum([1,2])).to.equal(3);
     });
-    it("Should return 4 for [2,2]", function () {
-        expect(sum([2,2])).to.equal(4);
+    it("Should return 7 for [2,2,3]", function () {
+        expect(sum([2,2,3])).to.equal(7);
     });
-    
-})
+    it("Should return 0 for []", function () {
+        expect(sum([])).to.equal(0);
+    })
+});

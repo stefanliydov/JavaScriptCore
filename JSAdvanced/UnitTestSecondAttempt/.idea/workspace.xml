@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19fe2acd-2f72-4911-9614-f68fd3e511c0" name="Default" comment="" />
+    <list default="true" id="00d3cc32-f7b1-4ec0-96a6-7b81e2955ca8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,47 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SubSum.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SubSum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc;n#subsum#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayingCards.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlayingCards.js">
+      <file leaf-file-name="calculator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#makeCard#0" expanded="false" />
-              </folding>
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckOfCards.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeckOfCards.js">
+      <file leaf-file-name="calculator.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/calculator.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#makeCard#0;n#!!block;n#Deck#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sum.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/Sum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="48">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="56" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -73,11 +47,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SubSum.js" />
-        <option value="$PROJECT_DIR$/PlayingCards.js" />
-        <option value="$PROJECT_DIR$/DeckOfCards.js" />
-        <option value="$PROJECT_DIR$/Sum.js" />
-        <option value="$PROJECT_DIR$/test/Sum.js" />
+        <option value="$PROJECT_DIR$/calculator.test.js" />
+        <option value="$PROJECT_DIR$/calculator.js" />
+        <option value="$PROJECT_DIR$/test/asdasd.js" />
+        <option value="$PROJECT_DIR$/asdaq.js" />
+        <option value="$PROJECT_DIR$/test/calculator.js" />
+        <option value="$PROJECT_DIR$/test/calculator.test.js" />
       </list>
     </option>
   </component>
@@ -118,25 +93,16 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTesting" />
+              <option name="myItemId" value="UnitTestSecondAttempt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTesting" />
+              <option name="myItemId" value="UnitTestSecondAttempt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -144,9 +110,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnitTestSecondAttempt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnitTestSecondAttempt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,11 +131,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\stefa\AppData\Roaming\npm\node_modules\mocha" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/calculator.test.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\TestRename\JavaScriptCore\JSAdvanced\UnitTesting\test" />
+      <recent name="D:\TestRename\JavaScriptCore\JSAdvanced\UnitTestSecondAttempt\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,14 +150,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Test summator.Should return 7 for [2,2,3]">
-    <configuration default="false" name="PlayingCards.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="PlayingCards.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="DeckOfCards.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="DeckOfCards.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="Test summator" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.Calculator (1)">
+    <configuration default="false" name="Calculator (1)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -191,13 +160,13 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/Sum.js</test-file>
+      <test-file>$PROJECT_DIR$/test/calculator.test.js</test-file>
       <test-names>
-        <name value="Test summator" />
+        <name value="Calculator" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="Test summator.Should return 4 for [2,2]" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Calculator.Should have 0 value when created" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -206,14 +175,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/Sum.js</test-file>
+      <test-file>$PROJECT_DIR$/test/calculator.test.js</test-file>
       <test-names>
-        <name value="Test summator" />
-        <name value="Should return 4 for [2,2]" />
+        <name value="Calculator" />
+        <name value="Should have 0 value when created" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="Test summator.Should return 7 for [2,2,3]" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Calculator.Should fractions" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -222,10 +191,26 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/Sum.js</test-file>
+      <test-file>$PROJECT_DIR$/test/calculator.test.js</test-file>
       <test-names>
-        <name value="Test summator" />
-        <name value="Should return 7 for [2,2,3]" />
+        <name value="Calculator" />
+        <name value="Should fractions" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Calculator.Should not subtrack NaNs" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/calculator.test.js</test-file>
+      <test-names>
+        <name value="Calculator" />
+        <name value="Should not subtrack NaNs" />
       </test-names>
       <method />
     </configuration>
@@ -295,7 +280,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="Test Unit" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <configuration default="false" name="Calculator" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -303,26 +288,23 @@
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory>$PROJECT_DIR$</test-directory>
-      <recursive>false</recursive>
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/calculator.test.js</test-file>
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.Test Unit" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.PlayingCards.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.DeckOfCards.js" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Test summator" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Test summator.Should return 4 for [2,2]" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.Test summator.Should return 7 for [2,2,3]" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Calculator" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Calculator (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Calculator.Should have 0 value when created" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Calculator.Should fractions" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Calculator.Should not subtrack NaNs" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Test summator.Should return 7 for [2,2,3]" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Test summator.Should return 4 for [2,2]" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Test summator" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.DeckOfCards.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.PlayingCards.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Calculator (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Calculator.Should not subtrack NaNs" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Calculator.Should fractions" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Calculator.Should have 0 value when created" />
       </list>
     </recent_temporary>
   </component>
@@ -334,45 +316,74 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="19fe2acd-2f72-4911-9614-f68fd3e511c0" name="Default" comment="" />
-      <created>1499356134828</created>
+      <changelist id="00d3cc32-f7b1-4ec0-96a6-7b81e2955ca8" name="Default" comment="" />
+      <created>1499455708536</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1499356134828</updated>
-      <workItem from="1499356136547" duration="2726000" />
-      <workItem from="1499416936999" duration="2430000" />
-      <workItem from="1499441756401" duration="2904000" />
-      <workItem from="1499455687221" duration="22000" />
+      <updated>1499455708536</updated>
+      <workItem from="1499455709829" duration="550000" />
+      <workItem from="1499504243081" duration="1384000" />
+      <workItem from="1499512898318" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_summator - 2017.07.07 at 19h 02m 20s.xml">
-      <configuration name="Test summator" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Calculator_(1) - 2017.07.08 at 13h 22m 32s.xml">
+      <configuration name="Calculator (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Test_summator_Should_return_4_for_[2,2] - 2017.07.07 at 19h 02m 27s.xml">
-      <configuration name="Test summator.Should return 4 for [2,2]" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Calculator_(1) - 2017.07.08 at 13h 24m 52s.xml">
+      <configuration name="Calculator (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Test_summator_Should_return_7_for_[2,2,3] - 2017.07.07 at 20h 12m 44s.xml">
-      <configuration name="Test summator.Should return 7 for [2,2,3]" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Calculator_(1) - 2017.07.08 at 13h 26m 44s.xml">
+      <configuration name="Calculator (1)" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_fractions - 2017.07.08 at 13h 21m 32s.xml">
+      <configuration name="Calculator.Should fractions" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_fractions - 2017.07.08 at 13h 21m 52s.xml">
+      <configuration name="Calculator.Should fractions" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_fractions - 2017.07.08 at 13h 22m 06s.xml">
+      <configuration name="Calculator.Should fractions" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_fractions - 2017.07.08 at 13h 22m 12s.xml">
+      <configuration name="Calculator.Should fractions" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_fractions - 2017.07.08 at 13h 22m 22s.xml">
+      <configuration name="Calculator.Should fractions" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_not_subtrack_NaNs - 2017.07.08 at 13h 24m 46s.xml">
+      <configuration name="Calculator.Should not subtrack NaNs" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Calculator_Should_not_subtrack_NaNs - 2017.07.08 at 13h 24m 48s.xml">
+      <configuration name="Calculator.Should not subtrack NaNs" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8082000" />
+    <option name="totallyTimeSpent" value="2107000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24933687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -393,136 +404,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SubSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#subsum#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingCards.js">
+    <entry file="file://$PROJECT_DIR$/test/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#makeCard#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeckOfCards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#makeCard#0;n#!!block;n#Deck#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubSum.js">
+    <entry file="file://$PROJECT_DIR$/test/calculator.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#subsum#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingCards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#makeCard#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeckOfCards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#makeCard#0;n#!!block;n#Deck#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="56" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubSum.js">
+    <entry file="file://$PROJECT_DIR$/test/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#subsum#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingCards.js">
+    <entry file="file://$PROJECT_DIR$/test/calculator.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#makeCard#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#subsum#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingCards.js">
+    <entry file="file://$PROJECT_DIR$/asdaq.js" />
+    <entry file="file://$PROJECT_DIR$/test/asdasd.js" />
+    <entry file="file://$PROJECT_DIR$/test/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#makeCard#0" expanded="false" />
-          </folding>
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeckOfCards.js">
+    <entry file="file://$PROJECT_DIR$/test/calculator.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#makeCard#0;n#!!block;n#Deck#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="56" selection-end-column="3" />
           <folding />
         </state>
       </provider>

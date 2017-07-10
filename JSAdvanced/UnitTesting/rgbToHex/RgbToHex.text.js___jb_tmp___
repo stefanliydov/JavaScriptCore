@@ -1,0 +1,17 @@
+let rgbToHexColor = require('./RgbToHex').rgbToHexColor;
+let expext = require('chai').expect;
+
+describe("RGB tp Hex color", function () {
+    it('Should return #FF9EAA for (255, 158, 170)', function () {
+        expext(rgbToHexColor(255, 158, 170)).to.equal('#FF9EAA');
+    });
+    it('Should pad values with zeros', function () {
+        expext(rgbToHexColor(12, 13, 14) ).to.equal('#0C0D0E');
+    });
+    it('Should pad values with zeros', function () {
+        expext(rgbToHexColor(255,255,255) ).to.equal('#FFFFFF');
+    });
+    it('Should work at lower limit', function () {
+        expext(rgbToHexColor(0, 0, 0) ).to.equal('#000000');
+    });
+});
