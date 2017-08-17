@@ -1,0 +1,12 @@
+{{> header}}
+<section id="{{viewName}}" class="{{viewName}}">
+    <h1 class="titleForm">{{viewTitle}}</h1>
+    <form id="formLogin" class="form" action="#/{{action}}" method="post">
+        <div>Username:</div>
+        <div><input type="text" name="username" required /></div>
+        <div>Password:</div>
+        <div><input type="password" name="passwd" required /></div>
+        <div><input type="submit" id="buttonLoginUser" value="{{viewTitle}}" /></div>
+    </form>
+</section>
+{{> footer}}

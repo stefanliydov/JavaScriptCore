@@ -1,0 +1,15 @@
+{
+  "name": "prodavachnik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tsvetomir Tsvetkov",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "sammy": "^0.7.6"
+  }
+}

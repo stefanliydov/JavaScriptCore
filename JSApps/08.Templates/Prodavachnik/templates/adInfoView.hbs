@@ -1,0 +1,9 @@
+{{> header}}
+<section id="viewAd" class="viewHome">
+  <h1 id="adTitle" class="title">{{ad.title}}</h1>
+  <p id="adDesc" class="body-text">{{ad.description}}</p>
+  <img id="adImage" class="image" src="{{ad.image}}">
+  <h2 class="price">Price: <span id="adPrice">{{ad.price}}</span></h2>
+  <p class="ad-info">Added on <span id="adDate">{{ad.datePublished}}</span> by <span id="adPublisher">{{ad.publisher}}</span></p>
+</section>
+{{> footer}}

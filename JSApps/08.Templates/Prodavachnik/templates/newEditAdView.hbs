@@ -1,0 +1,21 @@
+{{> header}}
+
+<section id="{{viewName}}" class="{{viewName}}">
+    <h1 class="titleForm">{{title}}</h1>
+    <form id="formCreateAd" class="form" action="#/{{action}}" method="post">
+        <div>Title:</div>
+        <div><input type="text" name="title" required value="{{ad.title}}"/></div>
+        <div>Description:</div>
+        <div><textarea name="description" rows="10"  required>{{ad.description}}</textarea></div>
+        <div>Date Published:</div>
+        <div><input type="date" name="datePublished" required  value="{{ad.datePublished}}"/></div>
+        <div>Price:</div>
+        <div><input type="number" step="0.01" name="price" required value="{{ad.price}}"/></div>
+        <div>Image url:</div>
+        <div><input type="text" name="image" required value="{{ad.image}}" /></div>
+        <div><input type="submit" id="buttonCreateAd" value="{{buttonName}}" /></div>
+
+    </form>
+</section>
+
+{{> footer}}
