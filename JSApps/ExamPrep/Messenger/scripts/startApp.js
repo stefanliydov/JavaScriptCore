@@ -45,9 +45,19 @@ function startApp() {
             }).catch(handleError);
     }
 
-    function showLoadSentMessages(messages) {
+   async function showLoadSentMessages(messages) {
         let container = $("#sentMessages");
-        container.empty();
+        messages.forEach(m => m.timestamp = formatDate(m._kmd.lmt));
+        let context = {messages:messages};
+
+           let source = await $.get("./templates/SentMessagesTemplate.html");
+
+           let template  = Handlebars.compile(source);
+           container.html(template(context));
+
+
+
+       /* container.empty();
         let messageTable = $("<table>")
             .append($("<thead>")
                 .append($("<tr>")
@@ -73,15 +83,16 @@ function startApp() {
         }
         messageTable.append(tbody);
         container.append(messageTable)
-        function deleteMessage(id) {
+        */
 
+    }
 
-            requester.remove("appdata",`messages/${id}`)
-                .then(()=>{
+    function deleteMessage(id) {
+        requester.remove(`appdata`,`messages/${id}`)
+            .then(()=>{
                 showInfo("Message deleted.");
-                    loadSentMessages()
-                }).catch(handleError);
-        }
+                loadSentMessages()
+            }).catch(handleError);
     }
 
     function navigateTo() {
@@ -187,9 +198,34 @@ function startApp() {
 
     function showMyMessages(messages) {
 
+        messages.forEach(m => m.timestamp = formatDate(m._kmd.lmt));
+        messages.forEach(m => m.sender = formatSender(m.sender_name,m.sender_username));
+
+        let context = {messages:messages};
         let container = $("#myMessages");
-        container.empty();
-        let messageTable = $("<table>")
+        loadTemplatePartial();
+        async function loadTemplatePartial() {
+            const[partialSource, messagesSource] =
+                await Promise.all([$.get("./templates/MyMessagesPartial.html"), $.get("./templates/MyMessagesTemplate.html")])
+
+            let partial = Handlebars.registerPartial("message",partialSource)
+            let template = Handlebars.compile(messagesSource);
+            container.html(template(context));
+
+        }
+
+
+        let source = $("#templateMyMessages").html();
+        let template = Handlebars.compile(source);
+        container.html(template(context));
+
+        //let source;
+
+        //let template = Handlebars.compile(source);
+       // container.html(template(context))
+       // console.log(template(context));
+
+        /*  let messageTable = $("<table>")
             .append($("<thead>")
                 .append($("<tr>")
                     .append($("<th>From</th>"))
@@ -209,7 +245,7 @@ function startApp() {
             tbody.append(tableRow);
         }
         messageTable.append(tbody);
-        container.append(messageTable)
+        container.append(messageTable)*/
 
     }
 
@@ -256,8 +292,7 @@ function startApp() {
     }
 
     function handleError(reason) {
-        console.log(reason.responseJSON.description);
-        showError(reason.responseJSON.description);
+      showError(reason.responseJSON.description);
     }
     
     function showInfo(message) {

@@ -11,12 +11,19 @@ let messagesService = (()=>{
         let endpoint = `messages?query={"sender_username":"${username}"}`;
         return requester.get('appdata',endpoint, "kinvey");
     }
-
+    function deleteMessage(id) {
+        console.log(id);
+        requester.remove(`appdata`,`messages/${id}`)
+            .then(()=>{
+                showInfo("Message deleted.");
+                loadSentMessages()
+            }).catch(handleError);
+    }
 
 
     return{
         loadMessages,
-        loadArchiveMessages
-
+        loadArchiveMessages,
+        deleteMessage
     }
 })()

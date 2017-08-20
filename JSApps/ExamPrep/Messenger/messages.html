@@ -10,6 +10,7 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./scripts/startApp.js"></script>
     <script src="./scripts/models/messagesService.js"></script>
+    <script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
 </head>
 
 <body onload="startApp()">
@@ -185,7 +186,23 @@
             </form>
         </section>
     </main>
-<script type="text/x-handlebars-template" id="templateMyMessages"></script>
+<script type="text/x-handlebars-template" id="templateMyMessages">
+    <table>
+        <thead>
+        <tr>
+            <th>From</th>
+            <th>Message</th>
+            <th>Date Received</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each messages}}
+
+        {{/each}}
+        </tbody>
+    </table>
+
+</script>
 
     <footer>Messaging System - Simple SPA Application</footer>
 </div>

@@ -1,0 +1,21 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>To</th>
+            <th>Message</th>
+            <th>Date Sent</th>
+            <th>Actions</th>
+         </tr>
+    </thead>
+    <tbody>
+    {{#each messages}}
+        <tr>
+            <td>{{recipient_username}}</td>
+            <td>{{text}}</td>
+            <td>{{timestamp}}</td>
+            <td><button onclick="messagesService.deleteMessage($(this).attr(`data-id`))" data-id="{{_id}}">Delete</button></td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

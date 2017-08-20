@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="messages.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Messenger/messages.html">
+      <file leaf-file-name="market.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Market/market.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,65 +32,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startApp.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Market/scripts/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="202" column="22" lean-forward="false" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+            <state relative-caret-position="24">
+              <caret line="182" column="38" lean-forward="false" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
               <folding>
-                <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="e#566#594#0" expanded="false" />
+                <element signature="e#600#627#0" expanded="false" />
+                <element signature="n#!!block;n#loggedIn#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#loggedOut#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#navigateTo#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#userLogout#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#userLogin#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#saveSession#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#loadMyMessages#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#showAllUsers#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#formatDate#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="n#!!block;n#formatSender#0;n#!!block;n#startApp#0" expanded="false" />
-                <marker date="1502883693813" expanded="true" signature="5896:6465" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="5929:6151" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="5963:5997" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="6158:6465" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="6235:6465" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="6470:6513" ph="..." />
-                <marker date="1502883693813" expanded="true" signature="6470:9153" ph="..." />
+                <element signature="n#!!block;n#shopReq#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#showShopProducts#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#cartReq#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#showCartProducts#0;n#!!block;n#startApp#0" expanded="false" />
+                <marker date="1503077514324" expanded="true" signature="7676:8884" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Market/scripts/models/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="e#1818#1863#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="requester.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/requester.js">
+        <entry file="file://$PROJECT_DIR$/Market/scripts/models/requester.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="1224">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messagesService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/messagesService.js">
+      <file leaf-file-name="startApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
-                <element signature="e#0#45#0" expanded="false" />
+                <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+                <marker date="1502980661830" expanded="true" signature="7135:7704" ph="..." />
+                <marker date="1502980661830" expanded="true" signature="7168:7390" ph="..." />
+                <marker date="1502980661830" expanded="true" signature="7202:7390" ph="..." />
+                <marker date="1502980661830" expanded="true" signature="7397:7704" ph="..." />
+                <marker date="1502980661830" expanded="true" signature="7474:7704" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,6 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsconfig.json" />
+        <option value="package_json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -111,9 +114,23 @@
         <option value="$PROJECT_DIR$/Messenger/startApp.js" />
         <option value="$PROJECT_DIR$/Messenger/scripts/models/requester.js" />
         <option value="$PROJECT_DIR$/Messenger/scripts/models/auth.js" />
+        <option value="$PROJECT_DIR$/Messenger/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Messenger/templates/MyMessagesTemplate.js" />
+        <option value="$PROJECT_DIR$/Messenger/templates/MyMessagesTemplate.hbs" />
         <option value="$PROJECT_DIR$/Messenger/messages.html" />
-        <option value="$PROJECT_DIR$/Messenger/scripts/models/messagesService.js" />
+        <option value="$PROJECT_DIR$/Messenger/templates/MyMessagesPartial.html" />
+        <option value="$PROJECT_DIR$/Messenger/templates/MyMessagesTemplate.html" />
+        <option value="$PROJECT_DIR$/Messenger/delete.js" />
         <option value="$PROJECT_DIR$/Messenger/scripts/startApp.js" />
+        <option value="$PROJECT_DIR$/Messenger/templates/SentMessagesTemplate.html" />
+        <option value="$PROJECT_DIR$/Messenger/scripts/models/messagesService.js" />
+        <option value="$PROJECT_DIR$/../08.Templates/Prodavachnik/scripts/prodavachnik.js" />
+        <option value="$PROJECT_DIR$/Market/css/market.css" />
+        <option value="$PROJECT_DIR$/Market/scripts/models/requester.js" />
+        <option value="$PROJECT_DIR$/Market/market.html" />
+        <option value="$PROJECT_DIR$/Market/scripts/models/auth.js" />
+        <option value="$PROJECT_DIR$/Market/scripts/App.js" />
       </list>
     </option>
   </component>
@@ -153,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -167,16 +183,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestRename\JavaScriptCore\JSApps\ExamPrep" />
+      <recent name="D:\TestRename\JavaScriptCore\JSApps\ExamPrep\Messenger" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,30 +386,46 @@
       <workItem from="1502797612432" duration="1221000" />
       <workItem from="1502805592455" duration="8257000" />
       <workItem from="1502874802968" duration="8883000" />
+      <workItem from="1502959798727" duration="29000" />
+      <workItem from="1502963232650" duration="1130000" />
+      <workItem from="1502964788819" duration="11386000" />
+      <workItem from="1502980237868" duration="2261000" />
+      <workItem from="1503055126621" duration="21392000" />
+      <workItem from="1503170614213" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18361000" />
+    <option name="totallyTimeSpent" value="54676000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.49603623" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13960867" sideWeight="0.49603623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15175538" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.50396377" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960339" sideWeight="0.50396377" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -312,25 +440,77 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Messenger/scripts/startApp.js</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <line>198</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="202" column="22" lean-forward="false" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+            <marker date="1502980661830" expanded="true" signature="7135:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7168:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7202:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7397:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7474:7704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/messagesService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="202" column="22" lean-forward="false" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+            <marker date="1502980661830" expanded="true" signature="7135:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7168:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7202:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7397:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7474:7704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Messenger/messages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,26 +520,11 @@
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#navigateTo#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#userLogout#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#userLogin#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#saveSession#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#loadMyMessages#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showAllUsers#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#formatDate#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#formatSender#0;n#!!block;n#startApp#0" expanded="false" />
-            <marker date="1502883693813" expanded="true" signature="5896:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="5929:6151" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="5963:5997" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6158:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6235:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6470:6513" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6470:9153" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7135:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7168:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7202:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7397:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7474:7704" ph="..." />
           </folding>
         </state>
       </provider>
@@ -368,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,43 +547,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Messenger/startApp.js" />
+    <entry file="file://D:/Продавачник/stefanliydov.github.io/prodavachnik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.894/app.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.881/app.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.517/messages.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.559/app.js" />
+    <entry file="file://$PROJECT_DIR$/Messenger/templates/MyMessagesTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/templates/MyMessagesPartial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.630/remote.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.412/auth.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.116/userSession.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.021/messages.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.374/app.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.426/messages.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.024/app.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.354/remote.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.013/messages.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.171/messages.js" />
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="456">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.839/prodavachnik.js" />
+    <entry file="file://$PROJECT_DIR$/../08.Templates/Prodavachnik/scripts/prodavachnik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.287/prodavachnik.js" />
+    <entry file="file://$PROJECT_DIR$/Messenger/templates/SentMessagesTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/messagesService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Продавачник/stefanliydov.github.io/prodavachnik.js">
+    <entry file="file://$PROJECT_DIR$/Market/css/market.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="637">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.381/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.481/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Messenger/messages.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+            <marker date="1502980661830" expanded="true" signature="7135:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7168:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7202:7390" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7397:7704" ph="..." />
+            <marker date="1502980661830" expanded="true" signature="7474:7704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Market/scripts/models/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Market/market.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -429,40 +709,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Messenger/scripts/models/requester.js">
+    <entry file="file://$PROJECT_DIR$/Market/scripts/models/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="23" />
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="e#1818#1863#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.320/market.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5736">
+          <caret line="239" column="18" lean-forward="false" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Messenger/scripts/startApp.js">
+    <entry file="file://$PROJECT_DIR$/Market/scripts/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="202" column="22" lean-forward="false" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+        <state relative-caret-position="24">
+          <caret line="182" column="38" lean-forward="false" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
           <folding>
-            <element signature="n#!!block;n#showLoadSentMessages#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="e#566#594#0" expanded="false" />
+            <element signature="e#600#627#0" expanded="false" />
+            <element signature="n#!!block;n#loggedIn#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loggedOut#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="n#!!block;n#navigateTo#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#userLogout#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#userLogin#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#saveSession#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#loadMyMessages#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showAllUsers#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#formatDate#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#formatSender#0;n#!!block;n#startApp#0" expanded="false" />
-            <marker date="1502883693813" expanded="true" signature="5896:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="5929:6151" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="5963:5997" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6158:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6235:6465" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6470:6513" ph="..." />
-            <marker date="1502883693813" expanded="true" signature="6470:9153" ph="..." />
+            <element signature="n#!!block;n#shopReq#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showShopProducts#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#cartReq#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCartProducts#0;n#!!block;n#startApp#0" expanded="false" />
+            <marker date="1503077514324" expanded="true" signature="7676:8884" ph="..." />
           </folding>
         </state>
       </provider>
